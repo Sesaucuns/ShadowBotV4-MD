@@ -66,14 +66,14 @@ global.db.chain = chain(global.db.data)
 }
 loadDatabase()
 
-global.authFile = `MysticSession`
+global.authFile = `SHADOW-SESSION`
 const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile)
 
 const connectionOptions = {
 printQRInTerminal: true,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['MysticBot','Safari','9.7.0']
+browser: ['The Shadow Brokers - Bot','Firefox','9.7.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
@@ -92,35 +92,9 @@ const tmp = [tmpdir(), join(__dirname, './tmp')]
 const filename = []
 tmp.forEach(dirname => readdirSync(dirname).forEach(file => filename.push(join(dirname, file))))
    
-     /* Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        Mas no me arrepiento de haberme reido
-        Por que la grasa es un sentimiento
-        Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        que me arrepiento de ser un grasoso
-        Por que la grasa es un sentimiento
-        - El waza 👻👻👻👻 (Aiden)            */
-   
-/*readdirSync("./jadibts").forEach(file => {
-const btprs = function (folder) {
-console.log(folder)
-let status = false
-Object.keys(global.conns).forEach((key) => {
-if (global.conns[key].uniqid == folder) status = true });
-return status }
-let lrp = btprs(file)
-console.log(lrp)
-if (!lrp) {rmSync("./jadibts/" + file, { recursive: true, force: true })}
-else if (lrp){
-try {
-readdirSync("./jadibts/" + file).forEach(file2 => {
-if (file2 !== "creds.json") { unlinkSync("./jadibts/" + file + "/" + file2) }})
-} catch {}}})*/
-       
-readdirSync("./MysticSession").forEach(file => {
+readdirSync("./SHADOW-SESSION").forEach(file => {
 if (file !== 'creds.json') {
-unlinkSync("./MysticSession/" + file, { recursive: true, force: true })}})    
+unlinkSync("./SHADOW-SESSION/" + file, { recursive: true, force: true })}})    
 return filename.map(file => {
 const stats = statSync(file)
 if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file) // 3 minutes
@@ -137,12 +111,12 @@ global.timestamp.connect = new Date
 }
 if (global.db.data == null) loadDatabase()
 if (update.qr != 0 && update.qr != undefined) {
-console.log(chalk.yellow('🚩ㅤEscanea este codigo QR, el codigo QR expira en 60 segundos.'))
+console.log(chalk.yellow('🟢 𝐄𝐒𝐂𝐀𝐍𝐄𝐀 𝐄𝐒𝐓𝐄 𝐂𝐎𝐃𝐈𝐆𝐎 𝐐𝐑, 𝐄𝐒𝐓𝐄 𝐂𝐎𝐃𝐈𝐆𝐎 𝐐𝐑 𝐄𝐗𝐏𝐈𝐑𝐀 𝐄𝐍 60 𝐒𝐄𝐆𝐔𝐍𝐃𝐎𝐒.'))
 }
 if (connection == 'open') {
-console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'))}
+console.log(chalk.yellow(`════════[ CONECTADO CON EXITO ]══════════\n│▣─➢Conectado The Shadow Brokers - bot\n│▣─➢By DIEGO-OFC | BrunoSobrino`))}
 if (connection == 'close') {
-console.log(chalk.yellow(`🚩ㅤConexion cerrada, por favor borre la carpeta ${global.authFile} y reescanee el codigo QR`))}
+console.log(chalk.yellow(`🔴ㅤ𝐂𝐎𝐍𝐄𝐗𝐈𝐎𝐍 𝐂𝐄𝐑𝐑𝐀𝐃𝐀 𝐁𝐎𝐑𝐑𝐀 𝐋𝐀 𝐂𝐀𝐑𝐏𝐄𝐓𝐀 ${global.authFile} 𝐘 𝐑𝐄𝐒𝐂𝐀𝐍𝐄𝐄 𝐄𝐋 𝐂𝐎𝐃𝐈𝐆𝐎 𝐐𝐑`))}
 }
 
 process.on('uncaughtException', console.error)
@@ -267,7 +241,7 @@ Object.freeze(global.support)
 setInterval(async () => {
 if (stopped == 'close') return
 var a = await clearTmp()        
-console.log(chalk.cyanBright(`\n▣───────────[ 𝙰𝚄𝚃𝙾𝙲𝙻𝙴𝙰𝚁 ]──────────────···\n│\n▣─❧ 𝙰𝚁𝙲𝙷𝙸𝚅𝙾𝚂 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝙳𝙾𝚂 ✅\n│\n▣───────────────────────────────────────···\n`))
+console.log(chalk.cyanBright(`\n▣════════[ 𝐂𝐋𝐄𝐀𝐑-𝐓𝐌𝐏 ]══════════...\n│\n• 𝐁𝐚𝐬𝐮𝐫𝐚 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐝𝐚 ✅\n│\n▣═════════════════════════════════════...\n`))
 }, 180000)
 setInterval(async () => {
 if (stopped == 'close') return        
