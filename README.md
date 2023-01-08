@@ -58,5 +58,3 @@ el comando #actualizar para que se actualicen los datos
 de esa cantidad el Bot empieza a ir 
 excesivamente lento (depende del WhatsApp igual)
 ```
-## `CREADORES` 
-[![DIEGO-OFC](https://avatars.githubusercontent.com/u/90165013?s=400&u=946f5c00c527c7e6fa2ef5148c6ad56270bb600e&v=4size=100)](https://avatars.githubusercontent.com/u/90165013?s=400&u=cdf7fd989e2a787c9f400545147865615c336002&v=4) 
