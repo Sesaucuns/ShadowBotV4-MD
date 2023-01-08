@@ -7,20 +7,24 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 import moment from 'moment-timezone' 
 
+//============= OWMER ============= 
 global.owner = [
   ['593959425714', '👑 DIEGO-OFC 👑', true]
   ['5219992095479', '👑 BRUNO-SOBRINO', true]
 ] 
+//Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 
 global.suittag = ['5219993404349'] 
 global.prems = ['51995386439'] 
 
+//============= TEXTOS ============= 
 global.packname = '(☞ﾟ∀ﾟ)☞'
 global.author = 'The Shadow Brokers - Bot'
 global.wm = '© The Shadow Brokers - Bot'
 global.igfg = '© The Shadow Brokers - Bot'
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 
+//============= DOCUMENTOS ============= 
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 // 'fiktod' 'BF39D349845E' '675e34de8a' '0b917b905e6f'
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -30,6 +34,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['BrunoSobrino']
 
+//============= APIS ============= 
 global.APIs = { 
   xteam: 'https://api.xteam.xyz',
   dzx: 'https://api.dhamzxploit.my.id',
