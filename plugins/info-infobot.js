@@ -43,8 +43,7 @@ let info = `
 ╠═〘 *The Shadow Brokers - Bot - MD* 〙 ═
 `.trim() 
 let aa = { quoted: m, userJid: conn.user.jid }
-let res = generateWAMessageFromContent (m.chat, {liveLocationMessage: {degreesLatitude: 0, degreesLongitude: 0, caption: info, secuenceNumber: "0", contextInfo: {mentionedJid: conn.parseMention()}}}, aa)
-conn.relayMessage(m.chat, res.message, {})
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'tools']
