@@ -31,7 +31,6 @@ let info = `
 ╠➥ [💡] Chats Totales: *${chats.length}* 
 ╠➥ [🚀] Tiempo Activo: *${uptime}*
 ╠➥ [🎩] Usuarios: *${totalreg} 𝚗𝚞𝚖𝚎𝚛𝚘𝚜*
-╠➥ [📲] Sistema operativo: *${conn.user.phone.device_manufacturer}*
 ╠➥ [☑️] Autoread: ${autoread ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
 ╠➥ [❗] Restrict: ${restrict ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'} 
 ╠➥ [💬] Pconly: ${pconly ? '*𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*' : '*𝚍𝚎𝚜𝚊𝚌𝚝𝚒𝚟𝚊𝚍𝚘*'}
