@@ -30,8 +30,8 @@ let ytLink = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysa
 let jsonn = await ytLink.json()
 let aud = await jsonn.result.audio
 let capt = `❍ 🔎 *TITULO:* ${title}\n❍ 📆 *PUBLICADO:* ${published}\n❍ 👀 *VISTAS:* ${views}\n❍ 🔗 *LINK:* ${url}`
-const buttons = [{buttonId: `#playlist ${title}`, buttonText: {displayText: '📋 𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 📋'}, type: 1}]
-const buttonMessage = { image: {url: thumbnail}, caption: capt, footer: '*ᴇɴᴠɪᴀɴᴅᴏ ᴀᴜᴅɪᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*', buttons: buttons, headerType: 4 }
+const buttons = [{buttonId: `#playlist ${title}`, buttonText: {displayText: '📋 MAS RESULTADOS 📋'}, type: 1}]
+const buttonMessage = { image: {url: thumbnail}, caption: capt, footer: '*⏰ Enviando audio, por favor espera*', buttons: buttons, headerType: 4 }
 let msg = await conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 conn.sendMessage(m.chat, { document: { url: aud }, mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, {quoted: msg})
 } catch {  
