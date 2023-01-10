@@ -27,7 +27,7 @@ let AnimeInfo = `
 ❄ • *Ringkasan:* ${resultes2.text}`
 conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, m)
 } catch {
-throw `*[❗] ERROR, INTENTELO DE NUEVO*`  
+throw `*⚠️ ERROR, INTENTELO DE NUEVO*`  
 }}
 handler.command = /^(anime|animeinfo)$/i
 export default handler 
