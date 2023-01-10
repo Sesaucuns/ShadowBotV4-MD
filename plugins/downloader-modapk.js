@@ -2,11 +2,11 @@ let handler  = async (m, { conn, usedPrefix: prefix, command, text }) => {
 try {
 switch(command) {
 case 'modapk': case 'apkmod':
-if (!text) throw `*[❗] 𝙸𝙽𝙶𝚁𝙴𝙴𝚂𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙰𝙿𝙺 𝚀𝚄𝙴 𝚀𝚄𝙸𝙴𝚁𝙰 𝙱𝚄𝚂𝙲𝙰𝚁*`        
+if (!text) throw `*✳️ INGRESA EL NOMBRE DE LA APP QUE QUIERAS BUSCAR*`        
 const data2 = await fetchJson('https://api.akuari.my.id/search/searchmod2?query=' + text)
 global.fetchJson = fetchJson
 const data = data2.respon
-if (data.length < 1) return await  conn.sendMessage(m.chat, { text: '*[❗] 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝙳𝙴 𝙻𝙰 𝙰𝙿𝙺*' }, { quoted: m } )
+if (data.length < 1) return await  conn.sendMessage(m.chat, { text: '*⚠️ SIN RESULTADOS*' }, { quoted: m } )
 var srh = [];  
 for (var i = 0; i < data.length; i++) {
 srh.push({ title: data[i].title, description: '', rowId: prefix + 'dapk2 ' + data[i].link });}
@@ -24,7 +24,7 @@ const apk5 = await conn.sendMessage(m.chat, { document: { url: data5.respon.down
 break        
 }
 } catch {
-throw `*[❗] 𝙽𝙾 𝚂𝙴 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙾 𝙽𝙸𝙽𝙶𝚄𝙽 𝙼𝙾𝙳 𝙰𝙿𝙺 𝙲𝙾𝙽 𝙴𝚂𝙴 𝙽𝙾𝙼𝙱𝚁𝙴 𝙾 𝙻𝙰 𝙰𝙿𝙸 (𝙿𝙰𝙶𝙸𝙽𝙰) 𝙴𝚂𝚃𝙰 𝙲𝙰𝙸𝙳𝙰*`
+throw `*⚠️ No se encontró ningún resultado prueba con otro nombre o la api está caída.*`
 }}    
 handler.command = /^(apkmod|modapk|dapk2)$/i
 export default handler
