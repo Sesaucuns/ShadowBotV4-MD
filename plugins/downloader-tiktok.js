@@ -26,7 +26,7 @@ let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, bu
 let cap = `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${nickname || 'Indefinido'}`
 await conn.sendMessage(m.chat, { video: { url: url}, caption: cap, footer: wm, buttons }, { quoted: m })  
 } catch {
-throw `*⚠️ OCURRIO UN ERRO, VUELVE A INTENTARLO*`
+throw `*⚠️ OCURRIO UN ERROR, VUELVE A INTENTARLO*`
 }}}  
 handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio|prueba)$/i
 export default handler
