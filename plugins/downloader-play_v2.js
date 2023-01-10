@@ -11,7 +11,7 @@ if (!aa) return conn.sendFile(m.chat, json.result.audio, 'error.mp3', null, m, f
 if (command == 'play.2') {
 conn.reply(m.chat, `*_⏰ Enviando audio..._*`, m)
 let json = await res.json()
-conn.sendFile(m.chat, json.result.video, 'error.mp4', `_𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭_`, m)}
+conn.sendFile(m.chat, json.result.video, 'error.mp4', `_The Shadow Brokers - Bot - MD_`, m)}
 } catch (e) {
 m.reply('*⚠️ ERROR, INTENTALO DE NUEVO.*')
 }}
