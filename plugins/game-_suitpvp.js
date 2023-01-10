@@ -47,7 +47,7 @@ if (!room.pilih2) this.reply(room.p2, '*[⚠️] EL OPONENTE A ELEGIDO, ES TU TU
 if (jwb2 && reg.test(m.text) && !room.pilih2 && !m.isGroup) {
 room.pilih2 = reg.exec(m.text.toLowerCase())[0]
 room.text2 = m.text
-m.reply(`*[ ✔ ] 𝙷𝙰𝚂 𝙴𝙻𝙴𝙶𝙸𝙳𝙾 ${m.text}, REGRESA AL GRUPO Y ${room.pilih ? `REVISA LOS RESULTADOS*` : 'ESPERA LOS RESULTADOS*'}`)
+m.reply(`*[ ✔ ] HAS ELEGIDO ${m.text}, REGRESA AL GRUPO Y ${room.pilih ? `REVISA LOS RESULTADOS*` : 'ESPERA LOS RESULTADOS*'}`)
 if (!room.pilih) this.reply(room.p, '*[⚠️] EL OPONENTE A ELEGIDO, ES TU TURNO, ELIJE!!*', 0)}
 let stage = room.pilih
 let stage2 = room.pilih2
