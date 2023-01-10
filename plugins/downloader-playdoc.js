@@ -35,7 +35,7 @@ const buttonMessage = { image: {url: thumbnail}, caption: capt, footer: '*⏰ En
 let msg = await conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 conn.sendMessage(m.chat, { document: { url: aud }, mimetype: 'audio/mpeg', fileName: `${title}.mp3`}, {quoted: msg})
 } catch {  
-throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*'}}}
+throw '*⚠️ ERROR, INTENTALO DE NUEVO*'}}}
 handler.help = ['playdoc', 'play3'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
 handler.command = /^play3|playdoc?$/i
