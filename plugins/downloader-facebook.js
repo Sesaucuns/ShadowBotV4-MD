@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, command, usedPrefix }) => {
 if (!args[0]) throw `*[❗] Ingrese un enlace de Facebook, Ejemplo: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/` 
 if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `*[❗] Ingrese un enlace de Facebook, Ejemplo: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`
 try {
-await m.reply(`*[❗] ᴅᴇsᴄᴀʀɢᴀɴᴅᴏ sᴜ ᴠɪᴅᴇᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ ᴘᴏʀ ғᴀᴠᴏʀ, ᴇsᴛᴇ ᴘʀᴏᴄᴇsᴏ ᴘᴜᴇᴅᴇ ᴅᴜʀᴀʀ ᴇɴᴛʀᴇ 2 ʏ 10 ᴍɪɴᴜᴛᴏs ᴅᴇᴘᴇɴᴅɪᴇɴᴅᴏ ᴅᴇ ʟᴀ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ...*`)
+await m.reply(`*[❗] Descargando el vídeo, Aguarde un momento porfavor, Este proceso puede durar Entre 2 Y 10 Minutos dependiendo De la duración del vídeo ...*`)
 switch (command) {   
 case "facebook": case "fb": case "facebookdl": case "fbdl":                                  
 let res = await fbDownloader(args[0])
