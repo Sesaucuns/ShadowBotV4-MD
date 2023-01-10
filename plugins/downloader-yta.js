@@ -2,7 +2,7 @@ import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper'
 import fetch from 'node-fetch'
 let handler = async (m, { conn, args }) => {
 if (!args[0]) throw '*✳️ INSERTE EL COMANDO Y UN LINK / LINK DE UN VIDEO DE YOUTUBE*'
-await m.reply(`*_⏰ ENVIANDO AUDIO..._*\n\n*SI EL AUDIO NO ES ENVIADO, ᴘʀᴜᴇʙᴇ ᴄᴏɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ #playdoc ᴏ #play.2 ᴏ #ytmp4doc ◉*`)`)
+await m.reply(`*_⏰ ENVIANDO AUDIO..._*\n\n*SI EL AUDIO NO ES ENVIADO, ᴘʀᴜᴇʙᴇ ᴄᴏɴ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ #playdoc ᴏ #play.2 ᴏ #ytmp4doc ◉*`)
 try {
 let q = '128kbps'
 let v = args[0]
