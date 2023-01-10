@@ -4,12 +4,12 @@ let handler = async (m, {command, conn}) => {
 if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*LOS COMANDOS +18 ESTAN DESACTIVADOS EN ESTE GRUPO, SI ES ADMIN Y DESEA ACTIVARLOS  USE EL COMANDO #enable modohorny*'
 
 if (command == 'nsfwloli') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwloli.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/nsfwloli.json`)).data  
 let haha = await res[Math.floor(res.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'nsfwfoot') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwfoot.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/nsfwfoot.json`)).data  
 let haha = await res[Math.floor(res.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
@@ -22,7 +22,7 @@ let haha = await conn.getFile(`https://api.xteam.xyz/randomimage/bdsm?APIKEY=${k
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'nsfwcum') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwcum.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/nsfwcum.json`)).data  
 let haha = await res[Math.floor(res.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}   
   
@@ -31,12 +31,12 @@ let haha = await conn.getFile(`https://api.xteam.xyz/randomimage/ero?APIKEY=${ke
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'nsfwfemdom') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwfemdom.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/nsfwfemdom.json`)).data  
 let haha = await res[Math.floor(res.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)} 
   
 if (command == 'nsfwglass') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/nsfwglass.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/nsfwglass.json`)).data  
 let haha = await res[Math.floor(res.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
@@ -49,24 +49,24 @@ let haha = await conn.getFile(`https://api.xteam.xyz/randomimage/orgy?APIKEY=${k
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'tetas') {
-let resError = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/tetas.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/tetas.json`)).data   
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/boobs?apikey=fg-dylux`).data
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, res, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'booty') {
-let resError = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/booty.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/booty.json`)).data   
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/ass?apikey=fg-dylux`).data
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, res, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'ecchi') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/ecchi.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/ecchi.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'furro') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/furro.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/furro.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)} 
   
@@ -77,36 +77,36 @@ let url = json.url
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)} 
   
 if (command == 'imagenlesbians') {
-let resError = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/imagenlesbians.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/imagenlesbians.json`)).data   
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/lesbian?apikey=fg-dylux`).data
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, res, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}  
   
 if (command == 'panties') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/panties.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/panties.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'pene') {
-let resError = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/pene.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/pene.json`)).data   
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/penis?apikey=fg-dylux`).data
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, res, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'porno') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/porno.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/porno.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'randomxxx') {
-let rawjsonn = ['https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/tetas.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/booty.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/imagenlesbians.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/panties.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/porno.json'] 
+let rawjsonn = ['https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/tetas.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/booty.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/imagenlesbians.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/panties.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/porno.json'] 
 let rawjson = await rawjsonn[Math.floor(rawjsonn.length * Math.random())]  
 let res = (await axios.get(rawjson)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'pechos') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/pechos.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/pechos.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
@@ -123,12 +123,12 @@ let url = json.link
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'yuri') { 
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/yuri.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/yuri.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'yuri2') {
-let resError = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/yuri.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/yuri.json`)).data   
 let res = await fetch(`https://purrbot.site/api/img/nsfw/yuri/gif`)
 let json = await res.json()
 let url = json.link
