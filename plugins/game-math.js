@@ -1,7 +1,7 @@
 global.math = global.math ? global.math : {}
 let handler  = async (m, { conn, args, usedPrefix, command }) => {
 let mat =`
-*⚠️ INGRESA LA DIFICULTAD QUE QUIERAS JUGAF*
+*⚠️ INGRESA LA DIFICULTAD QUE QUIERAS JUGAR*
 
 *DIFICULTADES DISPONIBLES: ${Object.keys(modes).join(' | ')}*
 *EJEMPLO DE USO: ${usedPrefix}mates medium*
