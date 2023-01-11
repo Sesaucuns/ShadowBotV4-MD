@@ -24,8 +24,8 @@ let str = `
 ┃• *✳️REGISTRADO✳️:* ${registered ? 'Si': 'No'}
 ┃• *🌟PREMIUM:* ${prem ? 'Si' : 'No'}
 ┃• *#️⃣NUMERO DE SERIE#️⃣:* 
-┃• ${sn}`
-┗━━━━━━━━━━━━━━
+┃• ${sn}
+┗━━━━━━━━━━━━━━`
 conn.sendButton(m.chat, str, author, pp, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)}}
 handler.help = ['profile [@user]']
 handler.tags = ['xp']
