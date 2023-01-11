@@ -3,7 +3,7 @@ let Reg = /\|?(.*)([.|] *?)([0-9]*)$/i
 let handler = async function (m, { conn, text, usedPrefix, command }) {
   let user = global.db.data.users[m.sender]
   let name2 = conn.getName(m.sender)
-  if (user.registered === true) throw `[❗𝐈𝐍𝐅𝐎❗] YA ESTAS REGISTRADO/A\n\n¿QUIERE VOLVER A REGISTRARSE?\n\n 📌USE ESTE COMANDO\n*${usedPrefix}unreg* <Número de serie>`
+  if (user.registered === true) throw `⚠️ YA ESTAS REGISTRADO/A\n\n¿QUIERE VOLVER A REGISTRARSE?\n\n 📌USE ESTE COMANDO\n*${usedPrefix}unreg* <Número de serie>`
   if (!Reg.test(text)) throw `*⚠️ FORMATO INCORRECTO*\n\n*—◉ USO DEL COMANDO: ${usedPrefix + command} nombre.edad*\n*—◉ Ejemplo: ${usedPrefix + command} Shadow.18*`
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) throw '*⚠️ DEBES PONER UN NOMBRE*'
