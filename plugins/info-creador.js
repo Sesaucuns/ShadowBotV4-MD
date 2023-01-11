@@ -6,7 +6,7 @@ let text = `
 
 `.trim()   
 let buttonMessage= {
-'document': { `https://github.com/DIEGO-OFC/ShadowBotV4-MD` },
+'document': { `github.com/DIEGO-OFC/ShadowBotV4-MD` },
 'mimetype': `application/${document}`,
 'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
 'fileLength': 99999999999999,
