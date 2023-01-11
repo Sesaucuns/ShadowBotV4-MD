@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { text, usedPrefix, command }) => {
-if (!text) throw `*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝚄𝙽 𝙿𝙰𝙸𝚂, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 ${usedPrefix + command} Mexico*`
+if (!text) throw `*⚠️ Ingrese el nombre de un pais, Ejemplo ${usedPrefix + command} Mexico*`
 let res = await fetch(global.API('https://covid19.mathdro.id', '/api/countries/'+ (text)))
 if (!res.ok) throw await res.text()
 let json = await res.json()
