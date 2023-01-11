@@ -5,7 +5,7 @@ if (!m.mentionedJid[0] && !m.quoted) return m.reply(kicktext, m.chat, { mentions
 if (m.message.extendedTextMessage === undefined || m.message.extendedTextMessage === null) return m.reply('*⚠️ ETIQUETE A UNA PERSONA O RESPONDA AL MENSAJE DE LA PERSONA QUE DESEA ELIMINAR EJEMPLO:*\n*${usedPrefix + command} @${global.suittag}*') 
 if(m.message.extendedTextMessage.contextInfo.participant !== null && m.message.extendedTextMessage.contextInfo.participant != undefined && m.message.extendedTextMessage.contextInfo.participant !== "") {
 var mentioned = m.message.extendedTextMessage.contextInfo.mentionedJid[0] ? m.message.extendedTextMessage.contextInfo.mentionedJid[0] : m.message.extendedTextMessage.contextInfo.participant
-if(conn.user.jid.includes(mentioned)) return m.reply("*[❗] 𝙽𝙾 𝙿𝚄𝙴𝙳𝙾 𝙴𝙻𝙸𝙼𝙸𝙽𝙰𝚁𝙼𝙴 𝙰 𝙼𝙸 𝙼𝙸𝚂𝙼𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚂𝙰𝙲𝙰𝙼𝙴 𝙼𝙰𝙽𝚄𝙰𝙻𝙼𝙴𝙽𝚃𝙴 𝚂𝙸 𝙰𝚂𝙸 𝙻𝙾 𝙳𝙴𝚂𝙴𝙰𝚂*")
+if(conn.user.jid.includes(mentioned)) return m.reply("*⚠️ NO PUEDO ELIMINARME A MI MISMO, SACAME SI ASI LO DESEAS.*")
 let responseb = await conn.groupParticipantsUpdate(m.chat, [mentioned], 'remove')
 let exitoso1 = `*@${mentioned.split("@")[0]} ғᴜᴇ ᴇʟɪᴍɪɴᴀᴅᴏ ᴇxɪᴛᴏsᴀᴍᴇɴᴛᴇ ᴅᴇʟ ɢʀᴜᴘᴏ*`
 let error1 = `*@${mentioned.split("@")[0]} ᴇs ᴇʟ ᴄʀᴇᴀᴅᴏʀ ᴅᴇʟ ɢʀᴜᴘᴏ, ɴᴏ ᴘᴜᴇᴅᴏ ᴇʟɪᴍɪɴᴀʀ ᴀʟ ᴄʀᴇᴀᴅᴏʀ ᴅᴇʟ ɢʀᴜᴘᴏ*`
