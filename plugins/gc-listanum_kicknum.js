@@ -8,7 +8,7 @@ if (isNaN(args[0])) return m.reply(`**✳️ ESCRIBA UN CODIGO DE PAÍS PARA BUS
 let lol = args[0].replace(/[+]/g, '')
 let ps = participants.map(u => u.id).filter(v => v !== conn.user.jid && v.startsWith(lol || lol)) 
 let bot = global.db.data.settings[conn.user.jid] || {}
-if (ps == '') return m.reply(`*[❗] 𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾 𝙽𝙾 𝙷𝙰𝚈 𝙽𝙸𝙽𝙶𝚄𝙽 𝙽𝚄𝙼𝙴𝚁𝙾 𝙲𝙾𝙽 𝙴𝙻 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 +${lol}*`)
+if (ps == '') return m.reply(`*⚠️ NO HAY NINGUN NÚMERO CON EL PREFIJO +${lol}*`)
 let numeros = ps.map(v=> '⭔ @' + v.replace(/@.+/, ''))
 const delay = time => new Promise(res=>setTimeout(res,time));
 switch (command) {
@@ -28,7 +28,7 @@ await delay(2000)
 let responseb = await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
 if (responseb[0].status === "404") m.reply(error, m.chat, { mentions: conn.parseMention(error)})  
 await delay(10000)
-} else return m.reply('*[❗] 𝙴𝚁𝚁𝙾𝚁*')}
+} else return m.reply('*☢️ERROR*')}
 break            
 }}
 handler.command = /^(listanum|kicknum)$/i
