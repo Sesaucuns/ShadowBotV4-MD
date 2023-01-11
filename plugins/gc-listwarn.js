@@ -3,7 +3,7 @@ let adv = Object.entries(global.db.data.users).filter(user => user[1].warn)
 let warns = global.db.data.users.warn
 let user = global.db.data.users
 let imagewarn = './src/warn.jpg'
-let caption = `⚠️ 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝙰𝙳𝚅𝙴𝚁𝚃𝙸𝙳𝙾𝚂\n 
+let caption = `⚠️ *USUARIOS ADVERTIDOS*\n 
 *╔═══════════════════·•*
 ║ *Total : ${adv.length} Usuarios* ${adv ? '\n' + adv.map(([jid, user], i) => `
 ║
