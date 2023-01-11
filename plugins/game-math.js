@@ -22,7 +22,7 @@ global.math[id] = [
 await conn.reply(m.chat, `CUANTO ES EL RESULTADO DE *${math.str}*?\n\n*⏳ TIEMPO: ${(math.time / 1000).toFixed(2)} SEGUNDOS*\n*🏆 GANA HASTA: ${math.bonus} 𝚇𝙿*`, m),
 math, 4,
 setTimeout(() => { 
-if (global.math[id]) conn.sendButton(m.chat, `*`Se acabó el tiempo!\nLa respuesta es ${math.result}*`, wm, null, [['VOLVER A INTENTAR', `${usedPrefix + command} ${math.mode}`]], global.math[id][0])
+if (global.math[id]) conn.sendButton(m.chat, `*Se acabó el tiempo!\nLa respuesta es ${math.result}*`, wm, null, [['VOLVER A INTENTAR', `${usedPrefix + command} ${math.mode}`]], global.math[id][0])
 delete global.math[id]
 }, math.time)
 ]}
