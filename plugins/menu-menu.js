@@ -581,4 +581,17 @@ ${readMore}
 ┣ ඬ⃟ 💀 _${usedPrefix}crash6_
 ┣ ඬ⃟ 💀 _${usedPrefix}crash7_
 ┣ ඬ⃟ 💀 _${usedPrefix}crash8_
-┗━━━━━━━━━━━━━━━━━━━┛
+┗━━━━━━━━━━━━━━━━━━━┛`.trim()
+
+conn.sendButton(m.chat, menu, wm, pp,
+[
+['𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`],
+['𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂',`#audios`],
+['𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`]
+],m)}
+
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos)$/i
+handler.exp = 50
+handler.fail = null
+
+export default handler
