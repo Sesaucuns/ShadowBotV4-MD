@@ -20,8 +20,8 @@ let handler = async (m, { conn, isAdmin, isOwner, args, usedPrefix, command }) =
 *• Ejemplo:*
 *${usedPrefix + command} open 1*
 *${usedPrefix + command} close 1*
-📌 *_Ejemplo de uso:_* *${usedPrefix + command} close 1* 
-*_🌿 Para que el grupo este cerrado una hora._*
+✳️ *_Ejemplo de uso:_* *${usedPrefix + command} close 1* 
+*_⚠️ Para que el grupo este cerrado una hora._*
 `
       m.reply(caption)
 	  throw false
