@@ -9,13 +9,13 @@ const defaultType = 'apple'
 if (tipe && !emoji) {
 emoji = tipe
 tipe = defaultType }
-let err = `*[❗] 𝙴𝙻 𝚄𝚂𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾 𝙳𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙴𝚂*
+let err = `*✳️ El uso correcto es:*
 *◉ ${usedPrefix + command} <tipo> <emoji>*
 
-*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*
+*—◉ EJEMPLO:*
 *◉ ${usedPrefix + command}* fa 😎
 
-*—◉ 𝚃𝙸𝙿𝙾𝚂* 
+*—◉ TIPOS* 
 
 *◉ wha = whatsapp* 
 *◉ ap = apple*
@@ -30,7 +30,7 @@ let err = `*[❗] 𝙴𝙻 𝚄𝚂𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾 𝙳�
 *◉ pi = pixel*
 *◉ sa = samsung*
 
-*—◉ 𝚂𝙾𝙻𝙾 𝚄𝚂𝙰𝚁 𝚄𝙽 𝙴𝙼𝙾𝙹𝙸 𝚈 𝚁𝙴𝚂𝙿𝙴𝚃𝙴 𝙻𝙾𝚂 𝙴𝚂𝙿𝙰𝙲𝙸𝙾𝚂*`    
+*—◉ SOLO USAR UN EMOJI Y RESPETE LOS ESPACIOS*`    
 if (!emoji) throw err
 if (tipe == 'mo') tipe = 'mozilla'
 if (tipe == 'op') tipe = 'openmoji'
