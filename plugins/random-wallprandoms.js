@@ -38,7 +38,7 @@ await conn.reply(m.chat, global.wait, m)
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, haha, [['🔄 SIGUIENTE 🔄', `/${command}`]], fgif, { mentions: [who] })}
 
 if (command == 'wprandom') {
-let res = (await axios.get(`https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/wprandom.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/wprandom.json`)).data  
 let res2 = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), `*◈•@${who.split("@s.whatsapp.net")[0]}*`, res2, [['🔄 SIGUIENTE 🔄', `/${command}`]], fgif, { mentions: [who] })}
 
