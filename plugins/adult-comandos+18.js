@@ -99,7 +99,7 @@ let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 SIGUIENTE 🔄', `/${command}`]], m)}
   
 if (command == 'randomxxx') {
-let rawjsonn = ['https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/tetas.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/booty.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/imagenlesbians.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/panties.json', 'https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/JSON/porno.json'] 
+let rawjsonn = ['https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/tetas.json', 'https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/booty.json', 'https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/imagenlesbians.json', 'https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/panties.json', 'https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/JSON/porno.json'] 
 let rawjson = await rawjsonn[Math.floor(rawjsonn.length * Math.random())]  
 let res = (await axios.get(rawjson)).data  
 let url = await res[Math.floor(res.length * Math.random())]
