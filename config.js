@@ -54,7 +54,7 @@ global.APIKeys = {
   'https://zenzapis.xyz': `${keysxxx}`,
   'https://api-fgmods.ddns.net': 'fg-dylux'
 }
-============== IMAGEN ============
+//============== IMAGEN ============
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
