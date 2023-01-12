@@ -15,11 +15,11 @@ let expp = Math.floor(Math.random() * 5000)
   
 let texto = `
 ╔══🎉═🎉═🎉══⬣
-║🛒 𝙾𝙱𝚃𝙸𝙴𝙽𝙴𝚂 𝚄𝙽 𝙲𝙾𝙵𝚁𝙴
+║*🏦 OBTIENES UN COFRE
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈
 ║➢ *${dia} Diamantes* 💎
-║➢ *${tok} Tokens* 🪙
-║➢ *${mystic} MysticCoins* 👾
+║➢ *${tok} Tokens* 🛡️
+║➢ *${mystic} ShadowCoins* 🪙
 ║➢ *${expp} Exp* ⚡
 ╚═════════════════⬣`
 
@@ -38,7 +38,7 @@ const fkontak = {
 	"participant": "0@s.whatsapp.net"
 }
 
-await conn.sendButton(m.chat, texto, wm, img, [['🔰 𝙼𝙴𝙽𝚄', '/menu'] ], fkontak, m)  
+await conn.sendButton(m.chat, texto, wm, img, [['M E N U 🔰', '/menu'] ], fkontak, m)  
 global.db.data.users[m.sender].lastcofre = new Date * 1
 }
 handler.help = ['daily']
