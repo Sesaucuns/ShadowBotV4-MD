@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { isPrems, conn }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" 
 }
-let mystic = './Menu2.jpg'
+let shadow = './Menu2.jpg'
 let dos = [md]    
 let user = global.db.data.users[m.sender]
 let premium = user.premium
@@ -48,7 +48,7 @@ let text = `
 ┃ 🎉 OBTIENES UN REGALO!!
 ┃ *${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}*
 ╰━━🎁━🎁━🎁━━⬣`
-let img = './Menu.png'
+let img = './Menu2.jpg'
 
 await conn.sendButton(m.chat, text, texto + `\n\n🎟️ P R E M I U N ⇢ ${premium ? '✅' : '❌'}\n${wm}`, img, [['⛰️ ABRIR COFRE', '/cofre'], ['MENU PRINCIPAL', '/menu']], m, dos.getRandom())  
 user.lastclaim = new Date * 1
