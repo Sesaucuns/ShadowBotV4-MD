@@ -54,7 +54,7 @@ let str = `
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'DIEGO-OFC/ShadowBotV4-MD', 'GITHUB', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/DIEGO-OFC/ShadowBotV4-MD', 'GITHUB', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
 }}
