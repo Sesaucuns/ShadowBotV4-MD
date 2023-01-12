@@ -1,10 +1,10 @@
 {
-  "name": "TheMystic-Bot-MD",
-  "website": "https://github.com/BrunoSobrino",
+  "name": "TheShadowBrockersBot",
+  "website": "https://github.com/DIEGO-OFC",
   "description": "Subscribete a The Shadow Borkers - Bot (≧▽≦)",
-  "repository": "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
-  "logo": "https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/pictures/heroku-icon.jpg",
-  "success_url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+  "repository": "https://github.com/DIEGO-OFC/ShadowBotV4-MD",
+  "logo": "https://github.com/DIEGO-OFC/ShadowBotV4-MD/master/src/pictures/heroku-icon.jpg",
+  "success_url": "https://github.com/DIEGO-OFC/ShadowBotV4-MD",
   "keywords": [
     "nodejs",
     "heroku",
