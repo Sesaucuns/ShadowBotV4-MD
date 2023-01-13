@@ -4,9 +4,7 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 let text = `
 
 *El número de mi creador es: wa.me/593959425714*
-*El número de mi creador 2 es' 𝙴𝚂 wa.me/5219992095479*
-
-`.trim()   
+*El número de mi creador 2 es' 𝙴𝚂 wa.me/5219992095479*`.trim()   
 let buttonMessage= {
 'document': { `github.com/DIEGO-OFC/ShadowBotV4-MD` },
 'mimetype': `application/${document}`,
