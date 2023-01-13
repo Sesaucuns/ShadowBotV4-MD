@@ -1,17 +1,26 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
-import moment from 'moment-timezone'
 import { xpRange } from '../lib/levelling.js'
 const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 import { promises } from 'fs'
 import { join } from 'path'
-let handler = async (m, { conn, usedPrefix }) => {
+let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
+let vn = './media/menu.mp3'
 let pp = './Menu2.jpg'
-let readMore = more.repeat(850)   
+let d = new Date(new Date + 3600000)
+let locale = 'es'
+let week = d.toLocaleDateString(locale, { weekday: 'long' })
+let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
+let user = global.db.data.users[m.sender]
+let { money, joincount } = global.db.data.users[m.sender]
+let { exp, limit, level, role } = global.db.data.users[m.sender]
+let { min, xp, max } = xpRange(level, global.multiplier)
+let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
 let more = String.fromCharCode(8206)
+let readMore = more.repeat(850)  
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let username = '@' + m.sender.split("@s.whatsapp.net")[0]
+let username = '@' + m.sender.split("@s.whatsapp.net")[0
 
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
