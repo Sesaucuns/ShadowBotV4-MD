@@ -8,6 +8,7 @@ import { promises } from 'fs'
 import { join } from 'path'
 let handler = async (m, { conn, usedPrefix }) => {
 let pp = './Menu2.jpg'
+let readMore = more.repeat(850)   
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let username = '@' + m.sender.split("@s.whatsapp.net")[0]
 
