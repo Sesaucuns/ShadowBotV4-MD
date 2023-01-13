@@ -19,9 +19,9 @@ let img = await q.download?.()
 stiker = await mp4ToWebp(img, { pack: packname || global.packname, author: author || global.author })
 } else if (args[0] && isUrl(args[0])) {
 stiker = await createSticker(false, args[0], '', author, 20)
-} else throw `*[ ⚠ ] ️Error vuelva a intentarlo, recuerde responder a la imagen, video o gif con ${usedPrefix + command}*`
+} else throw `*[ ⚠ ] ️Error vuelva a intentarlo, recuerde responder a la imagen, video o gif con #s*`
 } catch {
-stiker = '*[ ⚠ ] ️Error vuelva a intentarlo, recuerde responder a la imagen, video o gif con ${usedPrefix + command}*'	
+stiker = '*[ ⚠ ] ️Error vuelva a intentarlo, recuerde responder a la imagen, video o gif con #s*'	
 } finally {
 m.reply(stiker)}}
 handler.help = ['sfull']
