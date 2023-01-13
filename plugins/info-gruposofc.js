@@ -1,4 +1,5 @@
-let media = imagen4
+import fs from 'fs'
+import MessageType from '@adiwajshing/baileys'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 *Hola 👋🏻, unete a los grupos oficiales para pasar un rato agradable usando el Bot o platicando con la familia de The Shadow Borkers - Bot*
