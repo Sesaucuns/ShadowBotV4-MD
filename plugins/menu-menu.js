@@ -20,7 +20,7 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)  
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let username = '@' + m.sender.split("@s.whatsapp.net")[0
+let username = '@' + m.sender.split("@s.whatsapp.net")[0]
 
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
