@@ -6,7 +6,7 @@
 
 
 <p align="center">
-<img src="https://github.com/DIEGO-OFC/ShadowBotV4-MD/blob/main/src/sinfoto.jpg" alt="DORRAT-BOT-MD" width="900"/>
+<img src="https://github.com/DIEGO-OFC/ShadowBotV4-MD/blob/main/src/admins.jph" alt="ShadowBotV4-MD" width="900"/>
 </p>
 
 ### `GRUPOS OFICIALES DEL BOT`
