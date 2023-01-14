@@ -41,7 +41,7 @@ desde el numero que haya puesto en el archivo
 config.js
 
 > Para obtener nuevamente el codigo QR, escribe en el termux:
-> rm -rf session.data.json
+> rm -rf ShadowSession 
 > npm start 
 
 > Si el termux se cierra para volver activar escribe:
@@ -56,7 +56,7 @@ el comando #actualizar para que se actualicen los datos
 de esa cantidad el Bot empieza a ir 
 excesivamente lento (depende del WhatsApp igual)
 ```
-# `Creadores`
+# `Creadores:`
 
 <a href="https://github.com/DIEGO-OFC"><img src="https://github.com/DIEGO-OFC.png" width="300" height="300" alt="DIEGO-OFC"/></a>
                  `DIEGO-OFC`
