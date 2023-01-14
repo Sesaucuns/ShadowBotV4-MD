@@ -15,6 +15,6 @@ let info = `
 
 *5.-* https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb`.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')
-}handler.command = /^linkgc|grupos$/i
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')}
+handler.command = /^linkgc|grupos$/i
 export default handler
