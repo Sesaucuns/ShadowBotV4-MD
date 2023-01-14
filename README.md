@@ -3,6 +3,12 @@
 ### `NECESITAS AYUDA?, CONTACTAME`
 <a href="http://wa.me/593959425714" target="blank"><img src="https://img.shields.io/badge/DIEGO_OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
+
+
+<p align="center">
+<img src="https://github.com/DIEGO-OFC/ShadowBotV4-MD/blob/main/src/sinfoto.jpg" alt="DORRAT-BOT-MD" width="900"/>
+</p>
+
 ### `GRUPOS OFICIALES DEL BOT`
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ)
 [![Grupo de WhatsApp](https://img.shields.io/badge/GRUPO_OFICIAL_2-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs)
