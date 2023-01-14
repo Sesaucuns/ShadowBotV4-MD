@@ -59,8 +59,10 @@ excesivamente lento (depende del WhatsApp igual)
 # `Creadores`
 
 <a href="https://github.com/DIEGO-OFC"><img src="https://github.com/DIEGO-OFC.png" width="300" height="300" alt="DIEGO-OFC"/></a>
-`DIEGO-OFC`
+                 `DIEGO-OFC`
 
 <a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="300" height="300" alt="BrunoSobrino"/></a>
-`BrunoSobrino`
+                `BrunoSobrino`
+
+`*🔥 The Shadow Brokers - Bot 🔥*`
 
