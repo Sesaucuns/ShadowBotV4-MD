@@ -17,8 +17,6 @@
 ### `AJUSTES`
 - CAMBIAR NÚMERO DE PROPIETARIO [Aqui](https://github.com/BrunoSobrino/ShadowBotV3/blob/master/config.js)
 
-### `Video tutorial para instalar el Bot`
-<a href="https://www.youtube.com/watch?v=dP8-aaHinBE&t=55s"><img height="30" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>&nbsp;&nbsp;
 
 ### `INSTALACION TERMUX`
 ```bash
@@ -28,8 +26,8 @@
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/BrunoSobrino/ShadowBotV3
-> cd ShadowBotV3
+> git clone https://github.com/BrunoSobrino/ShadowBotV4-MD 
+> cd ShadowBotV4-MD 
 > npm install
 > npm update
 > npm start
@@ -47,7 +45,7 @@ config.js
 > npm start 
 
 > Si el termux se cierra para volver activar escribe:
-> cd ShadowBotV3
+> cd ShadowBotV4-MD 
 > npm start 
 
 > Cada vez que realices una modificacion en el
