@@ -64,5 +64,5 @@ excesivamente lento (depende del WhatsApp igual)
 <a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="300" height="300" alt="BrunoSobrino"/></a>
                 `BrunoSobrino`
 
-`*🔥 The Shadow Brokers - Bot 🔥*`
+# **🔥 The Shadow Brokers - Bot 🔥**
 
