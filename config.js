@@ -22,7 +22,7 @@ global.packname = '(☞ﾟ∀ﾟ)☞'
 global.author = 'The Shadow Brokers - Bot'
 global.wm = '© The Shadow Brokers - Bot'
 global.igfg = '© The Shadow Brokers - Bot'
-global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
+global.wait = '*⏰ Cargando, espere un momento...*'
 
 //============= DOCUMENTOS ============= 
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -67,14 +67,6 @@ global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
-//=============Tiempo=============
-global.d = new Date(new Date + 3600000)
-global.locale = 'es'
-global.dia = d.toLocaleDateString(locale, { weekday: 'long' })
-global.fecha = d.toLocaleDateString('es', { day: 'numeric', month: 'numeric', year: 'numeric' })
-global.mes = d.toLocaleDateString('es', { month: 'long' })
-global.año = d.toLocaleDateString('es', { year: 'numeric' })
-global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 
 //=============RPG=============
 global.wm2 = `The Shadow Brokers - Bot - MD`
@@ -82,10 +74,10 @@ global.gt = 'The Shadow Brokers - Bot'
 global.shadowbot = 'The Shadow Brokers - Bot'
 global.md = 'https://github.com/DIEGO-OFC/ShadowBotV4-MD'
 global.mysticbot = 'https://github.com/DIEGO-OFC/ShadowBotV4-MD'
-global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.nomorown = '5219993404349'
+global.waitt = '*⏰ Cargando, espere un momento...*'
+global.waittt = '*⏰ Cargando, espere un momento...*'
+global.waitttt = '*⏰ Cargando, espere un momento...*'
+global.nomorown = '593959425714'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
 global.cmenub = '┊✦ '
