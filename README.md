@@ -26,7 +26,7 @@
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/BrunoSobrino/ShadowBotV4-MD 
+> git clone https://github.com/DIEGO-OFC/ShadowBotV4-MD 
 > cd ShadowBotV4-MD 
 > npm install
 > npm update
