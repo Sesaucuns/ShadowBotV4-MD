@@ -6,7 +6,7 @@
 
 - ### ShadowBotV4-MD
 
-### `COMPATIBLE CON WHATSAPP MULTIDIVICE, ACTUALIZADO`
+### **COMPATIBLE CON WHATSAPP MULTIDIVICE, ACTUALIZADO**
 
 ### `NECESITAS AYUDA?, CONTACTAME`
 <a href="http://wa.me/593959425714" target="blank"><img src="https://img.shields.io/badge/DIEGO_OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
