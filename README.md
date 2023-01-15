@@ -33,8 +33,10 @@
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
+> pkg install yarn
 > git clone https://github.com/DIEGO-OFC/ShadowBotV4-MD 
 > cd ShadowBotV4-MD 
+> yarn install 
 > npm install
 > npm update
 > npm start
