@@ -44,15 +44,15 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕀ℕ𝔽𝕆 𝔹𝕆𝕋 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 💟 _${usedPrefix}grupos_
-┣ ඬ⃟ 💟 _${usedPrefix}estado_
-┣ ඬ⃟ 💟 _${usedPrefix}infobot_
-┣ ඬ⃟ 💟 _${usedPrefix}speedtest_
-┣ ඬ⃟ 💟 _${usedPrefix}donar_
-┣ ඬ⃟ 💟 _${usedPrefix}grouplist_
-┣ ඬ⃟ 💟 _${usedPrefix}owner_
-┣ ඬ⃟ 💟 _${usedPrefix}script_
-┣ ඬ⃟ 💟 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+┣ ඬ⃟ ℹ️ _${usedPrefix}grupos_
+┣ ඬ⃟ ℹ️ _${usedPrefix}estado_
+┣ ඬ⃟ ℹ️ _${usedPrefix}infobot_
+┣ ඬ⃟ ℹ️ _${usedPrefix}speedtest_
+┣ ඬ⃟ ℹ️ _${usedPrefix}donar_
+┣ ඬ⃟ ℹ️ _${usedPrefix}grouplist_
+┣ ඬ⃟ ℹ️ _${usedPrefix}owner_
+┣ ඬ⃟ ℹ️ _${usedPrefix}script_
+┣ ඬ⃟ ℹ️ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ┗━━━━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━━━━┓
@@ -584,14 +584,14 @@ ${readMore}
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┃ *< 𝕄𝔸𝕋𝔸 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ - 𝕍𝕀ℝ𝕌𝕊 />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 💀 _${usedPrefix}crash𝟷_
-┣ ඬ⃟ 💀 _${usedPrefix}crash2_
-┣ ඬ⃟ 💀 _${usedPrefix}crash3_
-┣ ඬ⃟ 💀 _${usedPrefix}crash4_
-┣ ඬ⃟ 💀 _${usedPrefix}crash5_
-┣ ඬ⃟ 💀 _${usedPrefix}crash6_
-┣ ඬ⃟ 💀 _${usedPrefix}crash7_
-┣ ඬ⃟ 💀 _${usedPrefix}crash8_
+┣ ඬ⃟ 🔥 _${usedPrefix}crash𝟷_
+┣ ඬ⃟ 🔥 _${usedPrefix}crash2_
+┣ ඬ⃟ 🔥 _${usedPrefix}crash3_
+┣ ඬ⃟ 🔥 _${usedPrefix}crash4_
+┣ ඬ⃟ 🔥 _${usedPrefix}crash5_
+┣ ඬ⃟ 🔥 _${usedPrefix}crash6_
+┣ ඬ⃟ 🔥 _${usedPrefix}crash7_
+┣ ඬ⃟ 🔥 _${usedPrefix}crash8_
 ┗━━━━━━━━━━━━━━━━━━━┛`.trim()
 
 conn.sendButton(m.chat, menu, wm, pp,
