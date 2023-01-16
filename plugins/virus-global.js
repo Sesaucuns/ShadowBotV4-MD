@@ -21,20 +21,20 @@ let virtex2 = await fetch('https://raw.githubusercontent.com/Caliph91/txt/main/p
 let virtex3 = await fetch('https://raw.githubusercontent.com/Caliph91/txt/main/pirtex/3.txt').then(v => v.text());
 let virtex4 = await fetch('https://raw.githubusercontent.com/Caliph91/txt/main/pirtex/4.txt').then(v => v.text());
 let virtex5 = await fetch('https://raw.githubusercontent.com/BrunoSobrino/ShadowBotV3-OBSOLETO/master/lib/Binario.txt').then(v => v.text()); 
-let virtex6 = await fetch('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/trabas/traba1.txt').then(v => v.text());
-let virtex7 = await fetch('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/trabas/traba2.txt').then(v => v.text());
-let virtex8 = await fetch('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/trabas/traba3.txt').then(v => v.text());
-let virtex9 = await fetch('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/trabas/traba4.txt').then(v => v.text());
-let virtex10 = await fetch('https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/trabas/traba5.txt').then(v => v.text());
+let virtex6 = await fetch('https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/trabas/traba1.txt').then(v => v.text());
+let virtex7 = await fetch('https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/trabas/traba2.txt').then(v => v.text());
+let virtex8 = await fetch('https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/trabas/traba3.txt').then(v => v.text());
+let virtex9 = await fetch('https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/trabas/traba4.txt').then(v => v.text());
+let virtex10 = await fetch('https://raw.githubusercontent.com/DIEGO-OFC/ShadowBotV4-MD/master/src/trabas/traba5.txt').then(v => v.text());
     
 switch (command) {
     
 case 'virus': case 'binario': case 'traba': case 'crash': case 'virus1': case 'c1': case 'binario1': case 'traba1': case 'crash1': {
-conn.fakeReply(from, virtex1, '0@s.whatsapp.net', '🔥 *By MysticBot* 🔥', 'status@broadcast')
-conn.fakeReply(from, virtex2, '0@s.whatsapp.net', '🔥 *By MysticBot* 🔥', 'status@broadcast')
-conn.fakeReply(from, virtex3, '0@s.whatsapp.net', '🔥 *By MysticBot* 🔥', 'status@broadcast')
-conn.fakeReply(from, virtex4, '0@s.whatsapp.net', '🔥 *By MysticBot* 🔥', 'status@broadcast')
-conn.fakeReply(from, virtex5, '0@s.whatsapp.net', '🔥 *By MysticBot* 🔥', 'status@broadcast')} 
+conn.fakeReply(from, virtex1, '0@s.whatsapp.net', '🔥 *By ShadowBot* 🔥', 'status@broadcast')
+conn.fakeReply(from, virtex2, '0@s.whatsapp.net', '🔥 *By ShadowBot* 🔥', 'status@broadcast')
+conn.fakeReply(from, virtex3, '0@s.whatsapp.net', '🔥 *By ShadowBot* 🔥', 'status@broadcast')
+conn.fakeReply(from, virtex4, '0@s.whatsapp.net', '🔥 *By ShadowBot* 🔥', 'status@broadcast')
+conn.fakeReply(from, virtex5, '0@s.whatsapp.net', '🔥 *By ShadowBot* 🔥', 'status@broadcast')} 
 break
 case 'virus2': case 'c2': case 'binario2': case 'traba2': case 'crash2': {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./Menu2.jpg') }, { upload: conn.waUploadToServer })
