@@ -9,8 +9,8 @@ import moment from 'moment-timezone'
 
 //============= OWMER ============= 
 global.owner = [
-  ['593959425714', '👑 DIEGO-OFC 👑', true],
-  ['5219992095479', '👑 BRUNO-SOBRINO', true]
+  ['5493491445459', '👑 DIEGO-OFC 👑', true],
+  ['5493735569492', '👑 BRUNO-SOBRINO', true]
 ] 
 //Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 
